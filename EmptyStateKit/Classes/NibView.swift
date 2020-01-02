@@ -12,7 +12,7 @@ protocol NibViewProtocol: class {
     func commonInit()
 }
 
-class NibView: UIView, NibViewProtocol {
+public class NibView: UIView, NibViewProtocol {
 
     override init(frame: CGRect) {
         super.init(frame: frame)

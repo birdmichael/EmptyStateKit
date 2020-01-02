@@ -23,8 +23,8 @@ public class EmptyState {
     
     public weak var delegate: EmptyStateDelegate?
     public weak var dataSource: EmptyStateDataSource?
-    
-    private var emptyStateView: EmptyStateView!
+    public var emptyStateView: EmptyStateView!
+
     private var tableView: UITableView?
     private var separatorStyle: UITableViewCell.SeparatorStyle = .none
     

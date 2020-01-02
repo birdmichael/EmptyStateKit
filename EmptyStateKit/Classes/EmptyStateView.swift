@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EmptyStateView: NibView {
+ public class EmptyStateView: NibView {
 
     @IBOutlet weak var messageView: UIView!
     @IBOutlet weak var coverImageView: UIImageView!
@@ -57,7 +57,7 @@ class EmptyStateView: NibView {
     
     private var gradientLayer: CAGradientLayer?
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         primaryButton.layer.cornerRadius = 20
     }
     
